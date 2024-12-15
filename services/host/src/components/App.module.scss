@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.linkBlock {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  background-color: rgb(129, 162, 209);
+  color: rgba(255, 255, 255, 1);;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: rgba(119, 150, 192, 1);
+}
+
+.link {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #5e5d5d;
+}
